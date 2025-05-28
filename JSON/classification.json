@@ -1,0 +1,118 @@
+{
+    "Local Development": {
+      "Simulation Code": [
+        "C++ (beam_tracking.cpp)",
+        "Python (plot_results.py)"
+      ],
+      "Debugging & Testing": [
+        "GDB",
+        "Valgrind",
+        "Google Test",
+        "Catch2"
+      ],
+      "Local Data Storage": [
+        "CSV",
+        "SQLite"
+      ]
+    },
+    "Containerization": {
+      "Docker": [
+        "Dockerfile to build simulation environment",
+        "Run simulation inside container"
+      ],
+      "Docker Compose": [
+        "Run multi-service stack: simulation + InfluxDB + Grafana"
+      ]
+    },
+    "CI/CD Automation": {
+      "Git Version Control": [
+        "Git",
+        "Gitflow",
+        "GitHub",
+        "GitLab",
+        "Bitbucket"
+      ],
+      "CI/CD Tools": [
+        "GitHub Actions",
+        "Jenkins",
+        "Spinnaker"
+      ],
+      "Pipeline": [
+        "Auto-build Docker image",
+        "Run unit tests",
+        "Push image to registry",
+        "Deploy to Kubernetes cluster"
+      ]
+    },
+    "Deployment": {
+      "Kubernetes": {
+        "Concepts": [
+          "Pods",
+          "Master/Worker Nodes",
+          "Cluster orchestration"
+        ],
+        "Files": [
+          "kubernetes-deployment.yaml"
+        ]
+      },
+      "Cloud Providers": [
+        "AWS",
+        "GCP",
+        "Azure",
+        "OpenStack"
+      ],
+      "Infrastructure as Code": [
+        "Terraform",
+        "Ansible"
+      ]
+    },
+    "Monitoring & Observability": {
+      "Metrics Collection": [
+        "Prometheus",
+        "InfluxDB (time-series database)"
+      ],
+      "Visualization": [
+        "Grafana Dashboard"
+      ],
+      "Config Files": [
+        "prometheus.yml",
+        "grafana-dashboard.json"
+      ]
+    },
+    "Data Storage & Analytics": {
+      "Databases": [
+        "InfluxDB for time-series beam tracking data",
+        "PostgreSQL or MongoDB for structured/unstructured data",
+        "SQLite for local quick storage"
+      ],
+      "Data Processing": [
+        "Python (pandas, matplotlib, seaborn)"
+      ]
+    },
+    "Post-Simulation Visualization": {
+      "Python Scripts": [
+        "plot_results.py (Beam angle over time)"
+      ],
+      "Dashboards": [
+        "Grafana (Real-time)",
+        "Power BI",
+        "Tableau (optional for big analysis)"
+      ]
+    },
+    "Scaling & Extensions": {
+      "Edge Computing": [
+        "KubeEdge",
+        "AWS Greengrass"
+      ],
+      "Advanced Orchestration": [
+        "Multi-simulation scaling via Kubernetes Replicas",
+        "Distributed Systems architecture"
+      ],
+      "Logging & Telemetry": [
+        "JSON Logs",
+        "Protobuf for efficient data exchange"
+      ]
+    }
+  }
+  
+  

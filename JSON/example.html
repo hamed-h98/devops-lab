@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Example</title>
+</head>
+<body>
+    <h2>Companies:</h2>
+    <ul id="companyList"></ul>
+
+    <script type="text/javascript">
+        let companies = [
+            {
+                "Name": "Big Corporation",
+                "NumberOfEmployees": 1000,
+                "ceo": "Steve",
+                "rating": 3.6
+            },
+            {
+                "name": "Small Startup",
+                "numberOfEmployees": 3,
+                "ceo": null,
+                "rating": 4.2
+            }
+        ];
+
+        let list = document.getElementById("companyList");
+        companies.forEach(c => {
+            let item = document.createElement("li");
+
+            const name = c.Name || c.name;
+            const employees = c.NumberOfEmployees || c.numberOfEmployees;
+            const ceo = c.ceo ? c.ceo : "No CEO";
+            const rating = c.rating;
+
+            item.innerHTML = `
+                <strong>${name}</strong><br>
+                Employees: ${employees}<br>
+                CEO: ${ceo}<br>
+                Rating: ${rating}<br><br>
+            `;
+            list.appendChild(item);
+        });
+    </script>
+</body>
+</html>
