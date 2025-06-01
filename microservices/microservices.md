@@ -108,11 +108,63 @@ We can develope each service with a different programming languages (e.g node.JS
 <img src="images/image7.png" alt="Alt text" width="500">
 
 
+#### Downside of Microservies 
+
+A microservice might be down or not responding while another serive starts sending request to its API expecting a fullfill response. 
 
 
+<img src="images/image8.png" alt="Alt text" width="500">
+
+There are tools being developed to takle these challenges. 
+
+<img src="images/image9.png" alt="Alt text" width="500">
+
+The most popular one is Kubernetes which is perfect platform for running large microservices applications. 
 
 
+See hashicorp.com which is for microservice applications 
+
+<img src="images/image10.png" alt="Alt text" width="500">
+
+We need to know how to configure release process with a CI/CD pipeline for microservices. 
+
+#### How do we manage code for microservice application in a git repo? 
+
+Monorepo with stands for single repository, and Polyrepo with is multi-repository 
+
+<img src="images/image11.png" alt="Alt text" width="500">
+
+<img src="images/image12.png" alt="Alt text" width="500">
+
+<img src="images/image13.png" alt="Alt text" width="400">
+
+We have one main branch cause we have one repo, so if the developers break the main branch, other services will be blocked. 
+
+But many companies like Google use monorepo for their applications. They developed tools to scale build systems and version control with a large volume of code. 
+
+#### Polyrepo 
+
+One repository for each service
+
+- Code is cpmpletely isolated
+
+- Clone and work on them separately. 
+
+We can use for example Gitlab features to connect these repos (Groups). So we create a Gitlab repository Group 
 
 
+<img src="images/image14.png" alt="Alt text" width="600">
 
 
+<img src="images/image15.png" alt="Alt text" width="600">
+
+
+<img src="images/image16.png" alt="Alt text" width="600">
+
+
+Sharing resources is like Docker compose, Kubernetes etc is difficault. 
+We'll have to duplicate them in each project's repo or we have to create a dedicated project and reference them from there. 
+
+If we have a small project with just a several microservices, we should stick to monorepo 
+
+If we have separate teams for each service or if we want complete isolation, smaller code base to clone, polyrepo is a better option. 
