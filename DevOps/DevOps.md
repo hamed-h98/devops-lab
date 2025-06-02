@@ -75,14 +75,25 @@ So steamlines and automated process is here.
 Operations want to make sure changes won't break anything. Operations want to maintain stability in production and their focus is to make sure application is available and does not crash. So operations need to resist the speed of release and check all aspects of new release to make sure it's 100% safe which this slows down the process. Especially that the operations don't really understand the code or the applications, so there is more effort for them to evaluate this new release. 
 
 
+For example let's say developers developed a new feature which was released, but this feature consumes so much resources in the production environment that the servers got overloaded and the application crashed. Now operations team needs to fix that. So the developers may not be careful as the operations about the changes they releasse. 
+
+<img src="images/image13.png" alt="Alt text" width="600">
 
 
+Also security team will evaluate any changes to make sure they don't effect system's security. 
+
+<img src="images/image14.png" alt="Alt text" width="600">
+
+So these procedures slows down the process. So the DevOps is about to remove any roadblocks that slow down the process. so the security is also part of the DevOps. But there is a separate term of security is defined for DevOps and it's called DevSecOps 
+
+<img src="images/image15.png" alt="Alt text" width="600">
 
 
+<img src="images/image16.png" alt="Alt text" width="500">
 
+This testing may not be done by the Development or Operations rule but with a separate Testing rule. 
 
-
-
+<img src="images/image17.png" alt="Alt text" width="400">
 
 
 
