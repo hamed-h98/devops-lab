@@ -95,6 +95,50 @@ This testing may not be done by the Development or Operations rule but with a se
 
 <img src="images/image17.png" alt="Alt text" width="400">
 
+<img src="images/image18.png" alt="Alt text" width="500">
+
+This testing is also slowing down the process since these tests are done manually. 
+
+<img src="images/image19.png" alt="Alt text" width="500">
+
+This manual work is slow and more error-prone. 
+
+Plus with the manual work, knowledge sharing is difficult. Because people have to document it and others have to read it. 
+
+It's also very intransparent cause it's hard to trace, who execute what when. 
+
+Also if something happens to the infrastructure, it maybe really hard to recover and replicate the exact state fast. 
+
+<img src="images/image20.png" alt="Alt text" width="500">
+
+
+<img src="images/image21.png" alt="Alt text" width="200">
+
+
+DevOps tries to remove these roadblocks and things that slow down the release process. 
+
+
+<img src="images/image22.png" alt="Alt text" width="500">
+
+
+Many companies, implemented DevOps in different ways. But some patterns are common. 
+
+
+<img src="images/image23.png" alt="Alt text" width="500">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
