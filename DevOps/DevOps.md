@@ -127,11 +127,26 @@ Many companies, implemented DevOps in different ways. But some patterns are comm
 <img src="images/image23.png" alt="Alt text" width="500">
 
 
+One of these patterns was that devops evolved into an actual role called DevOps engineer. 
+
+And the technologies used to implement the DevOps principles are called devops techonologies. 
+
+In the center of DevOps, we have CI/CD. 
 
 
+<img src="images/image24.png" alt="Alt text" width="500">
+
+---
+
+### Concepts of Software Development 
 
 
+<img src="images/image25.png" alt="Alt text" width="300">
 
+
+A DevOps engineer does not program the application, but he/she must understand how the developers work, which Git workflow they are using. Also how the application configured to talk to other services or data bases and also the concepts of automated testing. 
+
+#### Operating systems and linux Basics 
 
 
 
