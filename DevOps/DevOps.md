@@ -279,6 +279,65 @@ So a monitoring tool like Prometheus or Nagios
 
 ### Infrastructure as Code 
 
+We have development, testing and production environments. So we need same deployment environment multiple times. Creating and maintaining one infrastructure for one environment, already takes a lot of time and is very error-prone. We don't want to do it manually 3 times. 
+
+
+<img src="images/image39.png" alt="Alt text" width="700">
+
+So we need to use Infrastructure as Code tools like Terraform and configuration management tools like Ansible 
+
+<img src="images/image40.png" alt="Alt text" width="700">
+
+So DevOps engineer need to use these tools to make the work more efficient as well as making the environment more transparent and easy to replicate and recover. 
+
+
+--- 
+
+### Scripting Languages 
+
+Writing maybe small applications to automate tasks like doing backups, system monitoring tasks, cron jobs, network management and so on. To do that, we need to know a scripting language. 
+
+This coule be an operating system specific, scripting language like bash or powershell or Python, Ruby or GO which are operating system independent. 
+
+Python has libraries for most of the databases including
+
+- PostgreSQL
+- MySQL 
+- MangoDB 
+
+As well as libraries for cloud platforms. 
+
+---
+
+### Version Control 
+
+
+<img src="images/image41.png" alt="Alt text" width="500">
+
+Managing the application code with github, gitlab, git repositories. 
+
+---
+
+So in general we need to learn one tool for each task where the tool is the most popular one. 
+
+<img src="images/image42.png" alt="Alt text" width="500">
+
+<img src="images/image43.png" alt="Alt text" width="500">
+
+---
+
+#### SRE (Site Reliablity Engineeing)
+
+<img src="images/image44.png" alt="Alt text" width="500">
+
+<img src="images/image45.png" alt="Alt text" width="500">
+
+
+
+
+
+
+
 
 
 
