@@ -214,7 +214,70 @@ CI/CD pipline is the heart of the devops tasks and responsibility.
 
 ### Cloud Providers 
 
+Using a cloud is infrastructure as a service platform like AWS, Google Cloud, Microsoft Azure 
 
+One of the reasons of using cloud is to save costs of setting up your own infrastructure. But these platforms manage lots of stuff for use includeing: 
+
+- Load Balancing
+- Backup 
+- Clustering 
+- Security 
+- etc 
+
+<img src="images/image31.png" alt="Alt text" width="500">
+
+<img src="images/image32.png" alt="Alt text" width="500">
+
+
+<img src="images/image33.png" alt="Alt text" width="500">
+
+
+Using a UI, we can create our network, configure firewalls, route tables and all parts of your infrastructure through services these platforms provide. But many of these services are platform specific. 
+
+<img src="images/image34.png" alt="Alt text" width="400">
+
+AWS services are very complex but we don't have to learn all the services. We only need to know the services that we need to deploy and run our specific application on the AWS infrastructure. 
+
+
+---
+
+### Container Orchestration 
+
+Our application runs as container cause we build docker image. Containers need to be managed. For small applications, Docker Compose is enough to manage them. 
+
+But if we have alot more containers in case of big microservices, we need a more powerful orchestration tool to do the job. Most popular of which is Kubernetes. So we need to manage the cluster, deploy applications in kubernetes. 
+
+It's a lot of effort to setup and manage multiple kubernetes clusters for different teams in a company. 
+
+We Loft, which is a platform that helps us build self-service kubernetes clusters 
+
+<img src="images/image35.png" alt="Alt text" width="700">
+
+Loft can automatically put the virtual clusters to sleep when nobody is using them and sutomatically waking them up. This saves the cost 
+
+
+--- 
+
+### Monitoring 
+
+DevOps engineer must setup monitoring for the running application. The underlying kubernetes cluster and the server on which the cluster is running. 
+
+- Tracking performance 
+
+- Discover problems
+
+So a monitoring tool like Prometheus or Nagios
+
+
+<img src="images/image36.png" alt="Alt text" width="700">
+
+
+
+<img src="images/image37.png" alt="Alt text" width="700">
+
+---
+
+### Infrastructure as Code 
 
 
 
