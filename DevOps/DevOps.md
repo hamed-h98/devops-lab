@@ -146,18 +146,73 @@ In the center of DevOps, we have CI/CD.
 
 A DevOps engineer does not program the application, but he/she must understand how the developers work, which Git workflow they are using. Also how the application configured to talk to other services or data bases and also the concepts of automated testing. 
 
+---
+
 #### Operating systems and linux Basics 
 
+After the development (coding and Git), the application needs to be deployed on a server so users can access it. So we need some kind of infrastructure on-premis servers or cloud servers. These servers needs to be created abd configured to run our application. 
+
+A DevOps engineer maybe responsible to prepare the infrastructure to run the application. 
+
+Most of the servers are applications that are running on Linux servers, then a DevOps engineer must know Linux. Also he/she needs to be comfortable using command line interface (CLI) (terminal). 
 
 
+<img src="images/image26.png" alt="Alt text" width="500">
+
+Installing tools and software on servers, Linux file system, server management, SSH key management are essential. 
+
+Also DevOps engineer must know basics of Networking and Security. 
+
+To configure firewalls to secure the application, open some ports to make application accessible from outside. 
+
+<img src="images/image27.png" alt="Alt text" width="200">
+
+The advanced operating system, or networking and security is not needed for DevOps engineer. 
+
+For System Administrator, Network and Security, there are special engineers for each of these fields. 
+
+---
+
+### Containers
 
 
+<img src="images/image28.png" alt="Alt text" width="400">
+
+We are going to run the application as containers on a server. So we need to understand Virtualization and Containers and managing containerized applications on a server. 
+
+Docker is a container technology that we need to learn. 
+
+#### How to release application? 
+
+How to make the application accessible to users from development and repository, to servers and having multiple versions of the application. 
+
+In DevOps way, this must be done continuously (CI/CD) in an efficient and fast (Automated) way. 
+
+---
+
+### Build Automatio & CI/CD
+
+When the tests are done, we need to package the application as an artifact like JAR file for Zip so that we can deploy it. 
+
+For example for package management, we have Maven or Gradle in Java, npm for javascript 
+
+Then we need to make a Docker image for the application and this image must be saved in an imagerepository. So Docker artifact repository on Nexus or dockerhub will be used here. 
+
+We want one pipeline that does all of this in sequential step (automated). So we need to build automation using GitLab, Jenkins, Github Actions, TeamCity 
 
 
+<img src="images/image29.png" alt="Alt text" width="500">
 
 
+There maybe some additional steps in the above pipline like sending notifications to the team about the pipline state or handling fail deployment. But this is the core CI/CD pipline. 
 
+CI/CD pipline is the heart of the devops tasks and responsibility. 
 
+<img src="images/image30.png" alt="Alt text" width="500">
+
+---
+
+### Cloud Providers 
 
 
 
